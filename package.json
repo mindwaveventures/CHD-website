@@ -40,14 +40,14 @@
   },
   "scripts": {
     "start": "env-cmd -f .env.local react-scripts start",
-    "dev": "env-cmd -f .env.dev react-scripts build && rm -rf ../dist && mv build ../dist",
-    "test": "env-cmd -f .env.test react-scripts build && rm -rf ../dist && mv build ../dist",
-    "prod": "env-cmd -f .env.prod react-scripts build && rm -rf ../dist && mv build ../dist",
+    "dev": "env-cmd -f .env.dev react-scripts build",
+    "test": "env-cmd -f .env.test react-scripts build",
+    "prod": "env-cmd -f .env.prod react-scripts build",
     "eject": "react-scripts eject",
     "lint": "eslint -- .",
     "lint:eslint:fix": "eslint --fix .",
     "prettify": "prettier --write",
-    "prepare": "cd .. && husky install website/.husky"
+    "prepare": "cd .. && husky install .husky"
   },
   "lint-staged": {
     "**/*.{ts,tsx,js,jsx}": [
