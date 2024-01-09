@@ -1,0 +1,82 @@
+.header-logo {
+  @apply max-w-[320px] w-full  border-cyan border-r-[2px] lg:border-[0px]
+   lg:border-b-[2px] lg:max-w-[inherit] flex justify-between p-2 items-center lg:flex-row-reverse
+}
+
+.header-logo span {
+  @apply lg:block  cursor-pointer;
+}
+
+.primary-header {
+  @apply flex h-24 bg-background-primary items-center  lg:block ;
+}
+
+.primary-header img {
+  @apply ml-[40px] my-[18px] mr-[30px] w-[160px] h-[44px] lg:mt-[25px] sm:mr-[10px] cursor-pointer;
+}
+
+.header-logo img{
+  @apply lg:mt-[18px]
+}
+
+.hidden{
+  @apply mb-[10px]
+}
+
+.secondary-header img {
+  @apply m-0 -mt-[1px] w-[35px] h-[35px] cursor-pointer;
+ }
+
+ .active-profile{
+  @apply bg-lime-500 w-[38px] h-[38px] rounded-full;
+ }
+
+ .inactive-profile{
+  @apply bg-transparent w-[37px] h-[37px] rounded-full;
+ }
+
+.primary-header h1 {
+  @apply flex justify-center;
+}
+
+.secondary-header {
+  @apply relative flex w-full justify-between min-h-[96px]  border-cyan border-b-[2px]  items-center  z-10;
+}
+
+.secondary-header .h1-text{
+  @apply  md:text-base xl:w-fit px-4
+}
+
+.account-blk {
+  @apply  grid grid-cols-[155px_40px] sm:grid-cols-[135px_40px] justify-end  mr-[40px] sm:mr-[20px]
+}
+
+.account-blk div p:nth-child(1) {
+  @apply text-font-dark font-bold text-sm mr-[6px] -mb-[2px]  text-end ;
+}
+
+.account-blk div p:nth-child(2) {
+  @apply text-font-dark text-sm mr-[6px] text-end;
+}
+
+.account-blk p {
+  @apply font-mons text-end
+}
+
+
+.menu-dropdown {
+  @apply  font-bold;
+}
+
+.menu-dropdown::after {
+  @apply absolute  right-[48px] bottom-[0px] lg:right-[35px] sm:right-[0px] ml-auto mr-auto h-0 w-0 border-[10px] border-t-0 border-l-primary border-r-primary;
+  content: '';
+}
+
+.sub-menu-dropdown {
+  @apply absolute h-[30px] w-[180px] top-[96px]  right-[14px]  text-font-dark hover:bg-cyan cursor-pointer ;
+}
+
+.sub-menu-dropdown div{
+  @apply text-font-dark border-[1px] border-cyan  hover:bg-tabBg hover:text-font-dark cursor-pointer text-sm bg-primary py-[8px] pl-[10px] shadow-[0px_4px_5px_-1px_rgba(0,0,0,0.16)]
+}

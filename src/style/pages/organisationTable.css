@@ -1,0 +1,17 @@
+.react-tabs__tab-list {
+    @apply border-b-cyan flex overflow-y-hidden md:overflow-x-auto !important ;
+}
+
+
+.react-tabs__tab--selected {
+    background: #DEEFF9 !important;
+    border-radius: 12px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    border: none !important;
+    @apply font-semibold !important;
+}
+
+.react-tabs__tab {
+    @apply  text-font-dark p-4 whitespace-nowrap !important
+}

@@ -1,0 +1,15 @@
+.resource-table-blk {
+    @apply w-[90%] overflow-auto mb-4
+}
+
+.resource-table-blk  .h1-text{
+    @apply p-14 pb-4 flex justify-center text-lg sm:px-8;
+}
+
+.resource-table-blk  p{
+    @apply  pb-4 flex justify-center text-font-dark sm:text-center
+}
+
+.resource-table-blk .table-blk table{
+    @apply pl-24
+}

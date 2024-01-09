@@ -1,0 +1,69 @@
+.file-upload-blk {
+    @apply grid justify-center
+}
+
+
+.file-upload-blk .h1-text {
+    @apply flex justify-center py-16 text-xl;
+}
+
+.file-upload-blk .h1-text span {
+    @apply ml-2 mt-3;
+}
+
+
+.file-upload-blk .h1-text img {
+    @apply h-[35px] w-[35px]
+}
+
+.file-upload-blk .waiting-time-blk {
+    @apply py-[25px] px-[20px]
+}
+
+.waiting-time-blk {
+    @apply max-w-[500px] w-full rounded-3xl border-[2px] border-solid border-cyan
+}
+
+.file-upload-blk .waiting-time-content {
+    @apply pt-6 px-6 pb-0
+}
+
+.waiting-time-content h3 {
+    @apply flex justify-center text-font-dark font-semibold;
+}
+
+.waiting-time-content p {
+    @apply pt-4 text-font-dark font-mons
+}
+
+.footer-btn label {
+    @apply min-w-[170px] h-[48px] rounded-[50px] bg-button-success grid justify-center items-center text-font-light font-bold cursor-pointer;
+}
+
+#fileUpload {
+    @apply contents;
+}
+
+.file-upload-blk .input-group {
+    @apply px-6
+}
+
+.progress-header{
+    @apply flex justify-between
+}
+
+.progress-header span{
+    @apply text-base block font-semibold text-font-dark 
+}
+
+.progress-title{
+    @apply text-base block mb-2 font-semibold text-left tracking-wide text-font-dark
+}
+
+.progess-bg{
+    @apply  rounded-[10px] h-[8px] bg-[#D3D3D3]
+}
+
+.progress{
+    @apply bg-success h-[8px] rounded-[10px]
+}

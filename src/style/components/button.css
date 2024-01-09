@@ -1,0 +1,33 @@
+.btn {
+    @apply rounded border-none font-semibold py-3 px-5 text-base;
+}
+
+
+
+.primary-btn {
+    @apply bg-button-primary transition ease-linear duration-150 text-font-light drop-shadow-md min-w-[170px] rounded-[50px] shadow-[0px_6px_3px_-1px_rgba(0,0,0,0.16)];
+}
+
+.primary-btn:hover{
+    @apply shadow-sm
+}
+
+.secondary-btn {
+    @apply bg-button-secondary transition ease-linear duration-100 border-solid  border-[2px] border-grey  text-font-dark min-w-[170px] rounded-[50px] cursor-pointer shadow-[3px_3px_2px_-1px_rgba(0,0,0,0.16)];
+}
+
+.secondary-btn-active {
+    @apply opacity-100 bg-button-primary text-font-light
+}
+
+.secondary-btn:hover {
+    @apply   opacity-100 bg-button-primary text-font-light shadow-sm
+}
+
+.success-btn {
+    @apply bg-button-success transition ease-linear duration-100 text-font-light drop-shadow-md min-w-[170px] rounded-[50px] shadow-[0px_6px_3px_-1px_rgba(0,0,0,0.16)];
+}
+
+.success-btn:hover{
+    @apply shadow-sm 
+}

@@ -1,0 +1,28 @@
+.pagerow {
+    @apply grid md:grid-cols-1 grid-cols-2 m-[auto] max-w-[900px] p-5 gap-5
+}
+
+.pagenotfound{
+    @apply min-h-screen flex
+}
+
+.textcol {
+    @apply flex justify-center flex-col md:text-center
+}
+
+.imagecol {
+    @apply flex justify-end md:justify-center
+}
+
+.textcol p {
+    @apply pt-4 text-font-dark font-mons max-w-[500px]
+}
+
+.textcol h1 {
+    @apply text-font-dark font-semibold;
+}
+
+.home-btn {
+    @apply py-7;
+  }
+  

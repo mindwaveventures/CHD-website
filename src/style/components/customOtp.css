@@ -1,0 +1,32 @@
+.custom-otp-field {
+    @apply h-[40px] text-base border-[1px] border-solid border-secondary mx-0 my-[16px];
+    width:40px !important;
+}
+
+.otp-content {
+ @apply pt-0;
+}
+
+.otp-content p{
+    @apply  text-font-dark 
+}
+
+.otp-content .sub-code{
+    @apply  text-font-dark font-bold underline cursor-pointer
+}
+
+.otp-err {
+    @apply bg-bgError min-w-[150px] mb-3;
+  }
+  
+  .otp-err p {
+    @apply p-3 text-error
+  }
+  
+  .error-message {
+  @apply bg-bgError min-w-[150px] mb-3;
+}
+
+.error-message p {
+  @apply p-3 text-error
+}

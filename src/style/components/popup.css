@@ -1,0 +1,64 @@
+.popup {
+    @apply fixed w-full h-full top-0 bottom-0 right-0 left-0 m-auto z-50 text-font-dark grid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_inner {
+    @apply relative w-[90%]  left-0 right-0 py-12 px-8 m-auto bg-font-light rounded-[30px] border-[2px] border-secondary max-w-[500px];
+}
+
+.popup .h1-text{
+    @apply flex justify-center items-center font-semibold
+}
+
+.popup-content {
+    @apply py-6
+}
+
+.popup-content  p:nth-child(1){
+    @apply pb-6
+}
+
+.popup-footer-btn{
+    @apply flex justify-center items-center;
+}
+
+.popup_inner .cross-icon {
+    @apply absolute right-[17px] top-[17px]
+}
+
+.popup_inner .header-section{
+    @apply flex justify-center items-center
+}
+
+.popup_inner .fa{
+    @apply pr-2
+}
+
+.h-250{
+    @apply min-h-[220px];
+}
+
+.h-250 .h1-text{
+    @apply  p-0 pb-10 !important;
+}
+
+.popup-textarea {
+    @apply max-w-[500px] w-full border-[1px] border-secondary h-[200px] p-2;
+}
+
+.h-450 {
+    @apply min-h-[450px];
+}
+
+.h-450 .h1-text {
+    @apply  p-0 pb-2 !important;
+}
+
+.popup-area-blk {
+    @apply py-6
+}
+
+.textarea-note{
+    @apply text-font-dark text-[12px] ; 
+}

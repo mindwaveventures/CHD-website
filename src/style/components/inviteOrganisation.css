@@ -1,0 +1,46 @@
+.invite-blk {
+    @apply px-16 py-[34px] w-full border-[1px] border-secondary  rounded-[30px] sm:px-6;
+}
+
+.invite-blk .button {
+    @apply pt-9
+}
+
+.invite-content h1 {
+    @apply flex justify-center pb-9 text-xl;
+}
+
+.invite-content .h1-text{
+    @apply pb-[64px] sm:pb-[34px] pt-0;
+}
+.invite-content p {
+    @apply pt-4 text-font-dark font-mons
+}
+
+.invite-content h3 {
+    @apply text-font-dark font-semibold
+}
+
+.invite-blk-main {
+    @apply py-12 px-5 max-w-[700px] w-full;
+}
+
+.main_card_invite {
+    @apply relative max-w-[760px] bg-primary m-auto w-[90%] border-[1px] border-secondary rounded-[30px] py-[35px] px-16
+}
+
+.main_card_invite .h1-text {
+    @apply flex justify-center pb-5 text-xl;
+}
+
+.invite_footer_btn {
+    @apply pt-[34px] flex justify-center
+}
+
+.note span{
+    @apply underline underline-offset-1 cursor-pointer
+}
+
+.invite-content .note{
+    @apply pt-0 mt-[-8px]
+}

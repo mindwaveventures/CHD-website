@@ -1,0 +1,184 @@
+.user-table-blk {
+    @apply w-[90%] overflow-auto
+}
+
+.user-table-blk  .h1-text{
+    @apply p-14 sm:py-[30px] flex justify-center text-lg sm:px-8;
+}
+
+.user-table-blk .table-blk table{
+    @apply pl-24
+}
+
+.table-filter-option {
+    @apply w-full flex justify-end
+}
+
+.time-info{
+    @apply flex
+}
+
+.time-info .fa{
+    @apply pl-3
+}
+
+.icon-style{
+    @apply cursor-pointer;
+}
+
+.time-col-blk{
+    @apply w-full grid grid-cols-[80%_20%] items-center;
+}
+
+.no-data {
+    @apply bg-tabBg p-6 w-full text-font-dark text-center font-semibold text-base rounded-xl;
+  }
+
+
+  /* admin audit */
+
+.select-audit{
+    @apply flex items-center  sm:block mb-4
+}
+
+.admin-select{
+    @apply justify-end
+}
+
+.admin-audit .table-filter-option{
+    @apply justify-start mb-4
+}
+
+.audit-dates{
+    @apply flex gap-4 mx-2 justify-center sm:block
+}
+
+.react-date-picker{
+    @apply max-w-[200px] sm:w-full  sm:max-w-full
+}
+
+.date-picker{
+    @apply mb-4
+}
+
+.date-picker p{
+    @apply text-font-dark font-semibold  mb-2   
+}
+
+.react-date-picker__inputGroup{
+    @apply px-[8px] py-[8px] 
+}
+
+.react-date-picker__wrapper{
+    @apply border border-solid border-cyan min-w-[200px]
+} 
+
+.react-calendar__tile--now{
+    @apply bg-font-dark/70 text-font-light
+}
+
+.react-calendar__tile--now:enabled:hover{
+    @apply bg-font-dark text-font-light
+}
+
+.react-calendar__tile:disabled{
+    @apply bg-transparent text-input cursor-not-allowed
+}
+
+.react-calendar__navigation button:disabled{
+    @apply bg-transparent text-input cursor-not-allowed
+}
+
+.react-date-picker__button:enabled:hover .react-date-picker__button__icon,
+ .react-date-picker__button:enabled:focus .react-date-picker__button__icon{
+    @apply stroke-black
+}
+
+.admin-audit .select-blk{
+    @apply sm:w-full
+}
+
+.admin-audit .select-blk form {
+    @apply grid sm:block
+}
+
+.admin-audit .select-blk label {
+    @apply  font-semibold max-w-full
+}
+
+.admin-audit .select-blk select {
+    @apply mt-2 max-w-[178px] sm:min-w-full
+}
+
+.admin-prediction .select-blk form{
+    @apply flex-col sm:block
+}
+
+.admin-prediction .select-blk select{
+    @apply mt-2 min-w-[150px]  sm:max-w-full
+}
+
+.admin-prediction .select-blk label{
+    @apply whitespace-nowrap max-w-full  font-semibold  block
+}
+
+.admin-prediction .table-filter-option{
+    @apply sm:block
+}
+
+
+.react-date-picker__wrapper{
+    @apply sm:w-full
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+    @apply no-underline
+}
+
+.react-date-picker__wrapper button{
+    @apply sm:w-[40px] sm:pl-0
+}
+
+.react-date-picker__calendar .react-calendar{
+    @apply border-2 border-solid border-cyan  rounded-md
+}
+
+.react-calendar__tile--active{
+    @apply bg-font-dark
+}
+
+.react-calendar__tile--active:hover{
+    @apply bg-font-dark
+}
+/* admin org */
+.status-error-btn{
+    @apply text-error py-1 h-8  font-semibold transition ease-linear duration-150 underline !important
+}
+
+.status-error-btn:hover{
+    @apply bg-bgError no-underline !important
+}  
+
+.account-status{
+    @apply grid grid-cols-[60%_40%] items-center gap-[10px];
+}
+
+.status-text{
+    @apply  px-2 py-1 bg-bgSuccess text-success rounded-sm text-center
+}
+
+.status-text-progress{
+    @apply  px-2 py-1  bg-orange-100 text-orange-500 rounded-sm text-center
+}
+
+.status-popup{
+    @apply mb-8
+}
+
+.status-popup p{
+    @apply mb-4
+}
+
+.status-popup span{
+    @apply font-semibold
+}

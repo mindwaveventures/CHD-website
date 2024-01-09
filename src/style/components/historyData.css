@@ -1,0 +1,134 @@
+.waiting-time-blk {
+    @apply max-w-[500px] w-full rounded-3xl border-[2px] border-solid border-[#E1EFF8]
+}
+
+.waiting-time-content {
+    @apply px-10 py-6
+}
+
+.waiting-time-content h3{
+    @apply flex justify-center text-font-dark font-semibold;
+}
+
+.waiting-time-content p {
+    @apply pt-4 text-font-dark font-mons
+}
+
+.upload-history-blk {
+    @apply p-4;
+}
+.upload-history-blk .footer-btn{
+    @apply py-[30px]
+}
+.upload-history-blk .h1-text {
+    @apply flex justify-center pt-[14px] pb-[30px] text-xl;
+}
+
+.upload-history-blk .h1-text span{
+    @apply ml-2;
+    margin-top:-11px;
+}
+
+
+.upload-history-blk .h1-text img{
+    height: 35px;
+    width: 35px;
+}
+
+.success-model-btn {
+    @apply flex justify-center pb-7;
+}
+
+.upload-success-icon{
+  @apply flex items-center justify-center pb-5
+}
+
+.file-upload-loader{
+  @apply w-[90%] h-[50vh] grid place-items-center 
+}
+
+/* loader */
+.waiting-spinner{
+    @apply flex flex-col items-center
+}
+
+.lds-spinner {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+  }
+  .lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+  }
+  .lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 37px;
+    width: 4px;
+    height: 14px;
+    border-radius: 30%;
+    background: #00408a;
+  }
+  .lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+  }
+  .lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+  }
+  .lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+  }
+  .lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+  }
+  .lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+  }
+  .lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+  }
+  .lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+  }
+  .lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+  }
+  .lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+  }
+  .lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+  }
+  .lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+  }
+  .lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+  }
+  @keyframes lds-spinner {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

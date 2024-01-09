@@ -1,0 +1,63 @@
+.input-group {
+  @apply relative;
+}
+
+.input-group label,
+.dropdown-label {
+  @apply text-base block mb-2 font-semibold text-left tracking-wide text-font-dark;
+}
+
+.input-group p {
+  @apply text-base block mb-3;
+}
+
+.input-group .text-field:disabled::placeholder {
+  @apply text-gray-400;
+}
+
+.input-group .text-field:disabled{
+ @apply border-gray-200 text-opacity-70 cursor-not-allowed bg-gray-200;
+}
+.input-group .text-field {
+  @apply relative border py-2 px-4 border-input  bg-transparent text-sm tracking-wide text-font-dark w-full mb-4;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+.input-group .text-field:focus {
+  @apply outline-none border border-input;
+}
+
+.input-group .text-field::placeholder {
+  @apply font-normal text-placeholder;
+}
+
+.form-error-msg {
+  @apply mt-2 text-left text-sm text-error;
+}
+
+.input-group .text-field.input-error {
+  @apply border border-error;
+}
+
+.input-search,
+.input-password {
+  @apply flex absolute items-center h-full z-10;
+  width: 40px;
+}
+
+.input-password {
+  @apply -right-[3px]  bottom-[8px] cursor-pointer;
+}
+
+.input-password svg {
+  fill: #00408a;
+}
+
+.disabled-field{
+  @apply border py-2 px-4 border-gray-200 text-sm tracking-wide text-opacity-70 cursor-not-allowed bg-gray-200 text-font-dark w-full mb-4 overflow-x-hidden text-ellipsis !important ;
+}
+
+.disabled-placeholder{
+  @apply text-gray-400 tracking-[1px] !important;
+}

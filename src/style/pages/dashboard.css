@@ -1,0 +1,61 @@
+.dashboard-blk .h1-text {
+    @apply pt-[30px] py-[40px] sm:pb-[30px] sm:pt-[14px] text-xl;
+}
+
+.card-blk {
+    @apply grid justify-center w-[205px] h-[185px] border-[3px] rounded-[30px] border-secondary drop-shadow-xl shadow-[3px_3px_2px_rgba(0,0,0,0.16)] cursor-pointer;
+}
+
+.card-blk img {
+    @apply w-[75px] h-[75px];
+}
+
+.card-content {
+ @apply pt-8;
+}
+
+.card-content div:nth-child(1){
+    @apply flex justify-center;
+}
+
+.card-content p {
+    @apply text-font-dark font-bold pt-5;
+}
+
+.dashboard-card{
+    @apply grid justify-items-center items-center text-center;
+}
+
+.card-section {
+    @apply flex gap-12 flex-wrap justify-center;
+}
+
+.card-des{
+     @apply text-font-dark  font-mons max-w-[195px]  pt-5  pb-2;
+}
+
+.card-section i {
+    @apply grid justify-center;
+}
+
+.fa-info-circle:before {
+    @apply text-2xl
+}
+
+.dashboard-blk {
+    @apply p-4 mb-[24px]
+ } 
+
+.overlay{
+    @apply absolute w-full h-full top-0 bottom-0 left-0 right-0 rounded-[30px];
+    background-color: rgba(255, 255, 255, 0.64);
+}
+
+.disable-border{
+    @apply relative border-2 border-[#E1EFF8] shadow-none drop-shadow-xl
+}
+
+.dashboard-header-blk{
+    @apply flex justify-center
+}
+

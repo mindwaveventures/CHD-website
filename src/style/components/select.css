@@ -1,0 +1,28 @@
+
+select {
+    @apply w-full max-w-[300px] h-[40px] border-[1px] border-cyan font-semibold text-font-dark bg-font-light font-mons cursor-pointer;
+}
+ 
+select:focus-visible{
+    @apply  outline-none;
+}
+
+.select-blk .select{
+    appearance: none;
+    -webkit-appearance: none;
+    background: url(../../assets/images/dropdown-icon.svg) no-repeat;
+    background-position:  top 11px right 10px;
+
+}
+
+.select-blk select {
+    @apply p-2 pr-[30px]
+}
+
+.select-blk form {
+    @apply p-2 flex justify-end text-font-dark;
+}
+
+.select-blk label {
+    @apply max-w-[67px] w-full pt-2 items-end
+}

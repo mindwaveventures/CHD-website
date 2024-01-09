@@ -1,0 +1,116 @@
+.sub-text {
+    @apply text-font-dark mb-9;
+}
+
+.signup-blk .footer-btn{
+    @apply justify-start sm:justify-center;
+}
+
+/* .signup-blk .error-message{
+    @apply bg-button-secondary;
+  }
+
+.signup-blk .error-message p{
+    margin-top: -20px
+  } */
+
+  .signup-blk .error-message span{
+    @apply underline cursor-pointer;
+  }
+
+  .signup-blk .info-text{
+    @apply text-placeholder text-sm italic pb-4;
+    
+  }
+
+  .signup-blk section .arrow {
+    @apply absolute left-7 top-8 w-6 h-6 xsm:left-[25px] cursor-pointer;
+  }
+
+  .error-message {
+    @apply bg-bgError min-w-[150px] mb-3;
+  }
+  
+  .error-message p {
+    @apply p-3 text-error my-5
+  }
+
+  /* .otp-content{
+    @apply  pt-5;
+  } */
+
+  /* .otp-content p:nth-child(1){
+    @apply font-bold text-font-dark;
+  } */
+
+  .verification-blk div:nth-child(1) {
+    @apply relative;
+  }
+
+  .verification-blk p:nth-child(1) {
+    @apply  pb-8 text-font-dark font-semibold;
+  }
+
+  .verification-blk p:nth-child(2) {
+    @apply text-font-dark pb-4;
+  }
+
+  .organisation-list-blk {
+    @apply absolute w-full max-w-[385px] max-h-[100px] border-[1px] border-input bg-font-light z-40 top-[37px]
+  }
+
+  .organisation-list-blk  div {
+    @apply text-font-dark border-[1px] border-b-input  hover:bg-button-primary hover:text-font-light cursor-pointer
+  }
+
+  .blk-height {
+    @apply h-[154px] overflow-auto;
+  }
+
+  .loader-height{
+    @apply h-[50px] overflow-auto bottom-[-33px];
+  }
+
+.list-space div {
+  @apply text-font-dark border-[1px] border-cyan  hover:bg-tabBg hover:text-font-dark cursor-pointer text-sm bg-primary py-[8px] pl-[10px]
+}
+
+
+/* support */
+.support-blk{
+  @apply lg:px-[25px]
+}
+
+.support-comment .aw-error{
+  @apply mt-2
+}
+
+.support-textarea{
+  @apply w-full border-[1px] border-input h-[200px] px-4 py-2 text-sm  text-font-dark resize-none;
+}
+
+.support-comment label{
+  @apply text-font-dark font-semibold mb-2 block
+}
+
+.comment-note{
+  @apply text-font-dark text-[12px]; 
+}
+ 
+.support-textarea::placeholder {
+  @apply font-normal text-placeholder;
+}
+
+.support-textarea:focus {
+  @apply outline-none border border-input;
+}
+
+.number-input input::-webkit-outer-spin-button,
+.number-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-input input[type=number] {
+  -moz-appearance: textfield;
+}

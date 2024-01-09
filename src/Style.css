@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import 'font-awesome/css/font-awesome.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#root{
+@apply font-mons z-10 relative; 
+}
+
+.main-section {
+  @apply grid min-h-screen font-mons;
+  background: transparent linear-gradient(180deg, #51BDDDD9 0%, #94CC4CE6 100%) 0% 0% no-repeat padding-box;
+}
+
+.main_card {
+  @apply relative max-w-[760px] bg-primary m-auto w-[90%] py-[85px] px-10 rounded-[33px] ;
+}
+
+.sign-in{
+  @apply px-[25px] md:py-[40px] 
+}
+
+.sign-up{
+  @apply max-h-24
+}
+
+.find-org{
+  @apply  px-[25px] lg:pb-[40px]
+}
+
+.fm-block {
+  @apply max-w-[385px] mx-auto;
+}
+
+.sign-up-otp{
+  @apply px-[25px] md:py-[40px] ;
+}
+
+.fm-block .h1-text {
+@apply pb-6 text-xl
+}
+
+.invite-blk .h1-text{
+@apply py-2
+}
+
+.invite-blk .note{
+  @apply text-base;
+}
+
+.note span{
+  @apply underline underline-offset-1 cursor-pointer
+}
+
+.invite-blk .sub-text{
+  @apply pt-1 pb-4 mb-0;
+}
+
+.verification-blk p{
+  @apply py-2 mb-0; 
+}
+
+.h1-text {
+  @apply text-font-dark font-bold text-lg;
+}
+
+.footer-btn {
+  @apply flex justify-center py-7;
+}
+
+
+.footer-split-blk {
+  @apply flex justify-center items-center text-font-dark mt-2;
+}
+
+.footer-split-blk :nth-child(1) {
+  @apply mr-3 w-[40%] max-w-[155px] border-b-button-primary border-[1px] border-t-0 border-r-0 border-l-0;
+}
+
+
+.footer-split-blk :nth-child(2) {
+  @apply ml-3 w-[40%] max-w-[155px] border-b-button-primary border-[1px] border-t-0 border-r-0 border-l-0;
+}
+
+.signup-btn-blk {
+  @apply text-font-dark flex justify-center text-center;
+}
+
+.signup-btn-blk span {
+  @apply underline text-font-dark font-bold cursor-pointer sm:block;
+}
+
+.error-message {
+  @apply bg-bgError min-w-[150px] mb-3 rounded-md;
+}
+
+.error-message p {
+  @apply p-3 text-error ;
+}
+
+.success-message {
+  @apply bg-bgSuccess min-w-[150px] mb-3;
+}
+
+.success-message p {
+  @apply p-3 text-success
+}
+
+.aw-error {
+  @apply text-error -mt-2 mb-3;
+}
+
+.password-blk {
+  @apply text-right text-font-dark;
+}
+
+.password-blk p{
+  @apply inline-block underline cursor-pointer;
+}
+
+.fa {
+  @apply text-font-dark text-xl cursor-pointer;
+}
+
+.eye-icon {
+  @apply absolute right-0;
+}
+
+.forgot-password-blk{
+  @apply  px-[25px]
+}
+
+
+.forgot-password-blk .arrow {
+  @apply absolute left-7 top-8 w-6 h-6 xsm:left-[25px] cursor-pointer;
+}
+
+.forgot-password-blk .h1-text {
+  @apply pb-6;
+}
+
+.success-btn:disabled, .primary-btn:disabled , .secondary-btn:disabled {
+  @apply cursor-pointer  opacity-20;
+}
+
+.d-none{
+  display: none;
+}
+
+.disable-transparent input:disabled{ 
+  @apply bg-transparent w-full text-black !important;
+  -webkit-text-fill-color:#000;
+}
+
+.textover{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.__react_component_tooltip {
+  @apply w-[250px] whitespace-normal ipad:absolute ipad:left-0 ipad:-top-5 py-[10px] !important;
+}
+
+.__react_component_tooltip::after{
+  @apply invisible !important
+}
+
+.link {
+  @apply pt-4 underline text-sm cursor-pointer
+}
